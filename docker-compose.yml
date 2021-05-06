@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  next-app:
+    image: node:14
+    volumes: 
+      - ./:/workspace
+    ports:
+      - "3000:3000"
+    entrypoint: /workspace/start.sh
+
+  custom-domain-proxy:
+    image: nginx
+    ports: 
+      - "8000:8000"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
