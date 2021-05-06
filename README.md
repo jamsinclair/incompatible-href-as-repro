@@ -1,5 +1,7 @@
 # `incompatible-href-as` reproduction with catch all and custom rewrite
 
+**Next.js Issue:** [#24846](https://github.com/vercel/next.js/issues/24846)
+
 This repo is a minimal reproduction of an odd https://nextjs.org/docs/messages/incompatible-href-as error with a custom server rewrite.
 
 ```
