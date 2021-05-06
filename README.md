@@ -16,4 +16,4 @@ The key points of interest are:
 
 To run this reproduction you will need [docker cli installed](https://docs.docker.com/get-docker/).
 
-Simply run `docker compose up` and once the server is active visit `localhost:8000`
+Simply run `docker compose up` and once the server is active visit http://localhost:8000
